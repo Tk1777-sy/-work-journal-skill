@@ -1,0 +1,55 @@
+{
+  "name": "work-journal",
+  "version": "1.0.0",
+  "description": "Interactive daily work journal for AI coding sessions. Generates developer logs, client reports, session resumption briefs, and git commit messages.",
+  "author": "Tk1777-sy",
+  "license": "MIT",
+  "homepage": "https://github.com/Tk1777-sy/-work-journal-skill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tk1777-sy/-work-journal-skill.git"
+  },
+  "skill": {
+    "entrypoint": "work-journal.md",
+    "trigger": "/work-journal",
+    "natural_language_triggers": [
+      "I'm done for the day",
+      "我下班了",
+      "Generate today's journal",
+      "End of session",
+      "今天工作结束了"
+    ],
+    "modes": [
+      "Full Developer Journal",
+      "Client Report",
+      "Session Resume",
+      "All Three"
+    ],
+    "outputs": [
+      "work-journal/YYYY-MM-DD.md",
+      "work-journal/YYYY-MM-DD-client.md",
+      "RESUME.md"
+    ]
+  },
+  "compatibility": {
+    "claude_code": true,
+    "cursor": true,
+    "windsurf": true,
+    "trae": true,
+    "github_copilot": true,
+    "any_llm_assistant": true
+  },
+  "languages": ["en", "zh"],
+  "keywords": [
+    "claude-code",
+    "skill",
+    "work-journal",
+    "developer-log",
+    "session-resume",
+    "client-report",
+    "git-commit",
+    "ai-coding",
+    "cursor",
+    "windsurf"
+  ]
+}

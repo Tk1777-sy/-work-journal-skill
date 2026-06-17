@@ -1,0 +1,14 @@
+# work-journal outputs
+
+# Session resume file (optional — some teams commit this)
+# RESUME.md
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+.vscode/
+.idea/
+*.swp
+*.swo
